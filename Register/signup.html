@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <title>signup</title>
+    <link rel="stylesheet" href="signupstyle.css">
+    <link rel="stylesheet" href="../Login/trysitecss.css">
 </head>
 <body>
-    
+    <section>
+        <div class="navi">
+            <!-- <img src="5332306.png" alt="Demo Logo" width="70px" height="70px"> -->
+            <nav>
+                <ul class = "nav_links"> 
+                    <li><a id="home" href="../index.html">Home</a></li>
+                    <li><a id="thtr" href="#">Theaters</a></li>
+                    <li><a id="mov" href="#">Movies</a></li>
+                    <li><a id="food" href="#">Food</a></li>
+                </ul>
+            </nav>
+            
+        </div class = "sec">
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Sign Up</h2>
+                    <div class="inputbox">
+                        <ion-icon name="text-outline"></ion-icon>
+                        <input type="text" required>
+                        <label for="">Name</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Retype Password</label>
+                    </div>
+                    <!-- <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                        
+                    </div> -->
+                    <button>
+                        Sign Up
+                    </button>
+                    <div class="register">
+                        <p>You Have an Account... <a href="../Login/login-page.html" style="color:powderblue">LogIn</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
