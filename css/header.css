@@ -68,7 +68,7 @@ li, a{
 }
 
 .hero{
-    background-image: url(/resx/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../resx/wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
