@@ -5,10 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/abc2.jpg);
+    background-image: url(/resx/abc2.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 
     /* Other styles for the .about class */
 }
