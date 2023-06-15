@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@500&display=swap');
 
 :root {
-    --primary-color: #145b73; 
+    --primary-color: white;  
 }
 
 *{
@@ -12,7 +12,7 @@
 
 .header{
     display: flex;
-    background-color: white;
+    /* background-color: white; */
     justify-content: space-between;
     align-items: center;
     /* margin: 30px 10%; */
@@ -60,5 +60,11 @@ li, a{
     margin: 4px;
     background-color: var(--primary-color);
     border-radius: 5px;
-    color: white;
+    color: #472033;
+}
+
+.hero{
+    background-image: url(/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
 }
