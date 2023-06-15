@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #145b73; 
+}
+
+.fullscreen{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.ho2{
+    color: 
+}

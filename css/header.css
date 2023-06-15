@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@500&display=swap');
+
+:root {
+    --primary-color: #145b73; 
+}
+
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px 10%; */
+    padding: 30px 10%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    /* margin-top: 7px; */
+    top: 0;
+    width: 80%;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    margin-top: 100px;
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s; 
+}
+.nav_links li a:hover{
+    padding: 8px;
+    margin: 4px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: white;
+}
