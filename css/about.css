@@ -1,3 +1,82 @@
-.about{
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+.about {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/abc2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* Other styles for the .about class */
+}
+
+.midsec{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgba(240, 255, 255, .5);
+    border-radius: 10px;
+    height: 740px;
+    width: 70vw;
+    box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.imag{
+    width: 600px;
+    height: 800px;
+    margin: 40px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 15px;
+    box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.imag img{
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+}
+
+.text{
+    height: 800px;
+    margin-left: 80px;
+    /* background-color: rgb(227, 227, 227); */
+}
+
+.abt-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.abt-text{
+    margin-top: 1000px;
+    height: 600px;
+}
+
+.tt{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.abt-head{
+    font-weight: 500;
+    color:rgb(88, 0, 0)
+}
+
+.divider{
+    height: 10px;
+    background-color: rgb(160, 160, 160);
+    width: 120px;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease 0s;
+}
+
+.midsec:hover .divider {
+    width: 500px;
+    background-color: rgb(0, 115, 88);
 }
