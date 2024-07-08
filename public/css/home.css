@@ -1,0 +1,27 @@
+.page{
+    min-height: 100vh;
+}
+
+
+.shuvro-img{
+    filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.3));
+    width: 80%;
+    transition: transform 0.1s ease-out;
+    will-change: transform;
+}
+
+
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #4d4d4d;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+}
