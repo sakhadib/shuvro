@@ -30,7 +30,7 @@
 
     <nav class="navbar navbar-expand-lg bs bgd fixed-top bs" id="boss_navbar">
         <div class="container">
-          <a class="navbar-brand" href="/" style="font-family: poppins, sans-sherif">SHUVRO</a>
+          <a class="navbar-brand" href="/" style="font-family: 'Jetbrains Mono', monospace">SHUVRO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,6 +47,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="/projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/#edu">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://sakhawatadib.com">Blog</a>
               </li>
               
             </ul>

@@ -12,6 +12,7 @@
 
 
 .title{
+    font-family: "Playwrite NG Modern", cursive;
     font-size: 3rem;
     font-weight: 700;
     color: #333;
@@ -39,6 +40,10 @@
 
     .subtitle {
         font-size: 1rem;
+    }
+
+    .result{
+        position:initial;
     }
 }
 
@@ -108,4 +113,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.social-img{
+    max-width: 50px; /* Adjust as necessary */
+    max-height: 50px; /* Adjust as necessary */
+}
+
+.result{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.mobile-result{
+    font-weight: 400;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }

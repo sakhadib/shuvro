@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Models\experience as Experience;
 use App\Models\Project;
 use App\Models\Skills;
+use App\Models\education as Education;
+use App\Models\cv as CV;
 
 class home_Controller extends Controller
 {
@@ -22,6 +24,10 @@ class home_Controller extends Controller
         $software_skill = Skills::where('type', 'soft')->get();
         $database_skill = Skills::where('type', 'db')->get();
 
+        $education = Education::orderBy('id', 'desc')->get();
+
+        $cv = CV::first();
+
 
         return view('home',
     
@@ -33,7 +39,9 @@ class home_Controller extends Controller
             'library_skill' => $library_skill,
             'framework_skill' => $framework_skill,
             'software_skill' => $software_skill,
-            'database_skill' => $database_skill
+            'database_skill' => $database_skill,
+            'education' => $education,
+            'cv' => $cv
         ]);
     }
 }

@@ -27,7 +27,7 @@
     </div>
     <div class="row">
         <div class="col-md-8">
-            <div class="row">
+            <div class="row mb-5">
                 @foreach($projects as $project)
                     <div class="col-md-6 mt-2">
                         <a href="{{$project->repo_url}}">

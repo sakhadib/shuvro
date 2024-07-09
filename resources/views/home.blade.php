@@ -18,10 +18,11 @@
                     <a href="https://iutoic-dhaka.edu" class="link-success">Islamic University of Technology</a>. 
                     I love to develop new things.
                 </p>
+                
                 <div class="row">
                     <div class="col-auto">
                         <a href="https://github.com/sakhadib" class="btn btn-lg btn-outline-dark">GitHub</a>
-                        <a href="https://github.com/sakhadib" class="btn btn-lg btn-dark">Download CV</a>
+                        <a href="/cv" class="btn btn-lg btn-dark">Download CV</a>
                     </div>
                 </div>
             </div>
@@ -271,21 +272,47 @@
 </div>
 
 
-<div class="vh-40 df aic">
+
+
+<div class="page df aic" id="edu">
     <div class="container">
-        <div class="row mt-3">
+        <div class="row">
             <div class="col-12">
-                <h1 class="display-5 text-center">
-                    Hay do you wanna <span class="l">Contact</span> me?
+                <h1 class="title">
+                    <span class="l">Education</span> enlightens the <span class="l">mind</span>
                 </h1>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col-12">
-                <h1 class="fs-4 text-center">
-                    Just mail me at <a href="mailto:sakhawatadib@gmail.com" class="link-l">sakhawatadib@gmail.com</a> and you will reach me.
-                </h1>
+        <div class="row">
+            @foreach($education as $edu)
+            <div class="col-md-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="fs-2">{{$edu->degree}} in {{$edu->field}}</h4>
+                        <h4 class="fs-5">From <span class="l">{{$edu->school}}</span></h4>
+                        <h4 class="d-none d-md-block">
+                            <span class="badge bg-dark result">
+                                {{$edu->result}}
+                            </span>
+                        </h4>
+                        <h4 class="fs-5">
+                            {{date('F Y', strtotime($edu->start))}}
+                            @if($edu->end != null)
+                                - {{date('F Y', strtotime($edu->end))}}
+                            @else
+                                - Present
+                            @endif
+                        </h4>
+                        <h4 class="d-md-none">
+                            <span class="badge bg-dark mobile-result">
+                                {{$edu->result}}
+                            </span>
+                        </h4>
+                    </div>
+                </div>
             </div>
+
+            @endforeach
         </div>
     </div>
 </div>
