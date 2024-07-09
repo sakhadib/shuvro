@@ -25,3 +25,33 @@
     font-family: "Poppins", sans-serif;
     text-align: justify;
 }
+
+
+
+@media (max-width: 767px) {
+    .shuvro-img {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+
+.sh-card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.1s;
+    transform-origin: center center;
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
