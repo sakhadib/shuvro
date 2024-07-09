@@ -67,7 +67,7 @@
 .lang-box {
     width: 100%;
     padding-top: 100%; /* This makes the height equal to the width, maintaining a square aspect ratio */
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(206, 206, 206, 0.235);
     border-radius: 50%;
     position: relative;
     display: flex;

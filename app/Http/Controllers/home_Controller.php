@@ -16,13 +16,24 @@ class home_Controller extends Controller
         $projects = Project::orderBy('created_at', 'desc')->take(8)->get();
         $skills = Skills::all();
 
+        $language_skill = Skills::where('type', 'lang')->get();
+        $library_skill = Skills::where('type', 'lib')->get();
+        $framework_skill = Skills::where('type', 'fw')->get();
+        $software_skill = Skills::where('type', 'soft')->get();
+        $database_skill = Skills::where('type', 'db')->get();
+
 
         return view('home',
     
         [
             'experiences' => $experiences,
             'projects' => $projects,
-            'skills' => $skills
+            'skills' => $skills,
+            'language_skill' => $language_skill,
+            'library_skill' => $library_skill,
+            'framework_skill' => $framework_skill,
+            'software_skill' => $software_skill,
+            'database_skill' => $database_skill
         ]);
     }
 }
