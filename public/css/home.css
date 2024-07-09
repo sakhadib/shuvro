@@ -55,3 +55,31 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 20px;
 }
+
+
+.my-col {
+    width: 100%; /* or any other width value you want for the parent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-box {
+    width: 100%;
+    padding-top: 100%; /* This makes the height equal to the width, maintaining a square aspect ratio */
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-box img {
+    position: absolute; /* Position the image absolutely to center it within the box */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%; /* Adjust as necessary */
+    max-height: 60%; /* Adjust as necessary */
+}

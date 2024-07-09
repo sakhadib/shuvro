@@ -33,6 +33,33 @@
     </div>
 </div>
 
+
+<div class="page df aic">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="title">
+                    For some people <span class="l">Learning</span> is a <span class="l">Passion</span>
+                </h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-7">
+                <div class="row">
+                    @foreach($skills as $skill)
+                        <div class="col-md-2 col-3 df jcc aic mt-3">
+                            <div class="lang-box df jcc aic">
+                                <img src="{{$skill->image}}" alt="" class="lang-icon">
+                            </div>
+                        </div>
+
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="page df aic" id="experience">
     <div class="container">
         <div class="row">
