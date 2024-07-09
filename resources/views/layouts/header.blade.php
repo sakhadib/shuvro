@@ -40,7 +40,13 @@
                 <a class="nav-link" aria-current="page" href="/#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/#experience">Experience</a>
+                <a class="nav-link" aria-current="page" href="/#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/experiences">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/projects">Projects</a>
               </li>
               
             </ul>

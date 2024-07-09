@@ -34,7 +34,7 @@
 </div>
 
 
-<div class="page df aic">
+<div class="page df aic" id="skills">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -178,7 +178,7 @@
         </div>
         <div class="row mt-3">
             <div class="col-12 df jcc">
-                <a href="/experience" class="btn btn-lg btn-outline-dark">View All Experiences</a>
+                <a href="/experiences" class="btn btn-lg btn-outline-dark">View All Experiences</a>
             </div>
         </div>
     </div>
@@ -265,6 +265,26 @@
                         <a target="blank" href="https://github.com/sakhadib" class="btn btn-lg btn-outline-secondary">Visit My Github</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="vh-40 df aic">
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12">
+                <h1 class="display-5 text-center">
+                    Hay do you wanna <span class="l">Contact</span> me?
+                </h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <h1 class="fs-4 text-center">
+                    Just mail me at <a href="mailto:sakhawatadib@gmail.com" class="link-l">sakhawatadib@gmail.com</a> and you will reach me.
+                </h1>
             </div>
         </div>
     </div>

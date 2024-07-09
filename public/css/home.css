@@ -83,3 +83,29 @@
     max-width: 60%; /* Adjust as necessary */
     max-height: 60%; /* Adjust as necessary */
 }
+
+
+.skill-img{
+    top: 50%;
+    left: 50%;
+    transform: translateY(-10%);
+    max-width: 30px; /* Adjust as necessary */
+    max-height: 30px; /* Adjust as necessary */
+    margin-right: 10px;
+}
+
+.skill-card{
+    background-color: rgba(0, 0, 0, 0.082);
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.mar{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
